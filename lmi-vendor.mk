@@ -501,6 +501,7 @@ PRODUCT_PACKAGES += \
     libOmxVpp \
     libOmxWmaDec \
     libOpenCL \
+    libQSEEComAPI \
     libVkLayer_q3dtools \
     libacdb-fts \
     libacdbloader \
@@ -524,6 +525,8 @@ PRODUCT_PACKAGES += \
     libcapiv2vop \
     libcdsp_default_listener \
     libcdsprpc \
+    libconfigdb \
+    libcpion \
     libdapparamstorage \
     libdeccfg \
     libdiag \
@@ -556,19 +559,23 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmdsprpc \
     libminkdescriptor \
+    libminksocket \
     libmivendor_module_calibration \
     libmivendor_module_hall \
     libmivendor_module_motor \
     libmm-color-convertor \
     libmulawdec \
+    libnetmgr \
     libnpu \
     liboemcrypto \
     libpdmapper \
     libperfconfig \
     libperfgluelayer \
     libperfioctl \
+    libperipheral_client \
     libprotobuf-cpp-full-3.9.1 \
     libprotobuf-cpp-lite-3.9.1 \
+    libqcbor \
     libqcci_legacy \
     libqcmaputils \
     libqdi \
@@ -581,6 +588,7 @@ PRODUCT_PACKAGES += \
     libqmi_csi \
     libqmi_csvt_srvc \
     libqmi_encdec \
+    libqmi_legacy \
     libqmiservices \
     libqrtr \
     libqsocket \
@@ -596,6 +604,10 @@ PRODUCT_PACKAGES += \
     libscveObjectTracker \
     libscveObjectTracker_stub \
     libsdsprpc \
+    libsensorslog \
+    libsnsapi \
+    libsoc_helper \
+    libspcom \
     libssrec \
     libstagefright_soft_ac4dec \
     libstagefright_soft_ddpdec \
@@ -612,6 +624,7 @@ PRODUCT_PACKAGES += \
     libvpplibrary \
     libvpptestutils \
     libwvkeybox \
+    libxml \
     libwvdrmengine \
     mi.motor.daemon \
     libasphere \
@@ -631,6 +644,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
+    vendor.qti.memory.pasrmanager@1.0 \
+    vendor.qti.memory.pasrmanager@1.1 \
     vendor.xiaomi.hardware.micharge@1.0 \
     audio.primary.lmi \
     vendor.qti.hardware.audiohalext@1.0-impl \
@@ -644,6 +659,7 @@ PRODUCT_PACKAGES += \
     libcppf \
     libdsd2pcm \
     libfastcrc \
+    libmmosal_vendor \
     libresampler \
     libsmwrapper \
     libmisoundfx \
@@ -789,7 +805,6 @@ PRODUCT_PACKAGES += \
     libHalSuperSensorServer \
     libMIAIHDRhvx_interface \
     libMegviiFacepp-0.5.2 \
-    libQSEEComAPI \
     libQTEEConnector_listener \
     libQTEEConnector_vendor \
     libSNPE \
@@ -820,6 +835,9 @@ PRODUCT_PACKAGES += \
     libarcsoft_preview_deflicker \
     libarcsoft_super_night_raw \
     libarcsoft_superportrait \
+    libasn1cper \
+    libasn1crt \
+    libasn1crtx \
     libc++_shared \
     libcacertclient \
     libcamera_dirty \
@@ -838,14 +856,13 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libcdfw \
     libcdfw_remote_api \
+    libcdsprpc_system \
     libchilog \
     libcne \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
     libcom.qti.chinodeutils \
-    libconfigdb \
-    libcpion \
     libcvp2 \
     libcvp2_hfi \
     libcvp_common \
@@ -903,7 +920,6 @@ PRODUCT_PACKAGES += \
     libmialgoengine \
     libmibokeh_845_video \
     libmibokeh_855 \
-    libminksocket \
     libmlipay \
     libmlipay@1.1 \
     libmmcamera_faceproc \
@@ -914,7 +930,6 @@ PRODUCT_PACKAGES += \
     libmulticam_optical_zoom_control \
     libmulticam_video_optical_zoom \
     libnanopb \
-    libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
     libnetmgr_rmnet_ext \
@@ -925,9 +940,7 @@ PRODUCT_PACKAGES += \
     libops \
     libos \
     libpdnotifier \
-    libperipheral_client \
     libpowercore \
-    libqcbor \
     libqcc_file_agent \
     libqcrilFramework \
     libqcrildatactl \
@@ -955,7 +968,6 @@ PRODUCT_PACKAGES += \
     libsecureui \
     libsecureui_svcsock \
     libsensorcal \
-    libsensorslog \
     libsettings \
     libsn100u_fw \
     libsnpe_adsp \
@@ -967,11 +979,8 @@ PRODUCT_PACKAGES += \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
     libsns_registry_skel \
-    libsnsapi \
     libsnsdiaglog \
-    libsoc_helper \
     libsoc_helper_jni \
-    libspcom \
     libspl \
     libssc \
     libssc_default_listener \
@@ -999,8 +1008,9 @@ PRODUCT_PACKAGES += \
     libwqe \
     libwvhidl \
     libxmi_high_dynamic_range \
-    libxml \
     libxtadapter \
+    libxtwifi_server_protocol \
+    libxtwifi_server_protocol_uri_v3 \
     ls_nq_client \
     qcrild_librilutils \
     qtibus \
@@ -1104,8 +1114,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
-    vendor.qti.memory.pasrmanager@1.0 \
-    vendor.qti.memory.pasrmanager@1.1 \
     vendor.xiaomi.hardware.mlipay@1.0 \
     vendor.xiaomi.hardware.mlipay@1.1 \
     vendor.xiaomi.hardware.mtdservice@1.0 \
