@@ -1149,6 +1149,7 @@ PRODUCT_PACKAGES += \
     misound_res \
     libmmosal \
     libmmparser_lite \
+    vendor.qti.qspmhal@1.0 \
     com.qualcomm.qti.dpm.api@1.0 \
     lib-imsvideocodec \
     lib-imsvt \
