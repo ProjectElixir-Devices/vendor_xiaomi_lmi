@@ -573,8 +573,6 @@ PRODUCT_PACKAGES += \
     libperfgluelayer \
     libperfioctl \
     libperipheral_client \
-    libprotobuf-cpp-full-3.9.1 \
-    libprotobuf-cpp-lite-3.9.1 \
     libqcbor \
     libqcci_legacy \
     libqcmaputils \
