@@ -869,8 +869,6 @@ PRODUCT_PACKAGES += \
     libgf_hal6 \
     libgnsspps \
     libhdr_tm \
-    libhdrdynamic \
-    libhdrdynamicootf \
     libhexagon_nn_stub \
     libhta \
     libhta_hexagon_runtime \
