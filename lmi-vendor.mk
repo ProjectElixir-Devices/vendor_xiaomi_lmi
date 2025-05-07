@@ -475,7 +475,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl-qti \
     audio.bluetooth_qti.default \
     com.dsi.ant@1.0-impl \
-    lights.kona \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
