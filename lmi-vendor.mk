@@ -225,7 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm.policy \
     vendor/xiaomi/lmi/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm.policy \
     vendor/xiaomi/lmi/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
-    vendor/xiaomi/lmi/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/xiaomi/lmi/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/xiaomi/lmi/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/xiaomi/lmi/proprietary/vendor/etc/sensors/config/adux1050_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/adux1050_0.json \
@@ -491,16 +490,6 @@ PRODUCT_PACKAGES += \
     libC2D2 \
     libCB \
     libI420colorconvert \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxQcelp13Dec \
-    libOmxVpp \
-    libOmxWmaDec \
     libOpenCL \
     libQSEEComAPI \
     libVkLayer_q3dtools \
@@ -648,15 +637,12 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.micharge@1.0 \
     audio.primary.lmi \
     vendor.qti.hardware.audiohalext@1.0-impl \
-    libOmxDsdDec \
-    libOmxVideoDSMode \
     liba2dpoffload_lmi \
     libadm \
     libadpcmdec \
     libaudio_log_utils \
     libaudioconfigstore \
     libcppf \
-    libdsd2pcm \
     libfastcrc \
     libmmosal_vendor \
     libqcodec2_base \
